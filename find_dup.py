@@ -43,7 +43,6 @@ def find_dup(array):
         if j < 0: raise ValueError
         checking_array[j] += 1
 
-
     # now check if there are duplicates
     for k in range(len(checking_array)):
         if checking_array[k] > 1:
